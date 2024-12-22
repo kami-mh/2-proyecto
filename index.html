@@ -12,21 +12,25 @@
                 background-color: #9C4949; /* Utilizamos background-color para añadir color de fondo */
                 font-family: Arial, sans-serif;
                 margin: 0;
-                margin-left: 200px;
-        
+                padding: 20px; /* Espacio uniforme alrededor del contenido */
             }
-            /* Centrar el primer párrafo y ajustar su ancho */
 
-            p:first-of-type {
-                text-align: center;
-                width: 80%;  /* Limita el ancho del párrafo */
-                margin: 0 auto;  /* Centra el párrafo */
+            /* Centrar el contenido principal */
+            main {
+                max-width: 800px; /* Ancho máximo del contenido */
+                margin: 0 auto; /* Centra el contenido horizontalmente */
+                background-color: #fff; /* Color de fondo opcional para resaltar */
+                padding: 20px; /* Espacio interior */
+                border-radius: 10px; /* Bordes redondeados */
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
             }
+
             header {
                 background-color: #651515; /* Color de fondo para el header */
                 color: black;
                 padding: 20px;
                 text-align: center;
+                border-radius: 10px; /* Opcional: bordes redondeados */
             }
 
             h1 {
@@ -42,10 +46,7 @@
                 padding: 20px;
                 background-color: #651515;
                 color: white;
-            }
-
-            ul {
-                margin-left: 20px;
+                border-radius: 10px; /* Opcional: bordes redondeados */
             }
 
             p {
@@ -53,12 +54,11 @@
                 line-height: 1.6;
             }
         </style>
-    </head>
-
-    <body>
-        <header>
-            <h1>Segunda práctica del curso - Gloria Fuertes</h1>
-        </header>
+<body>
+    <header>
+        <h1>Segunda práctica del curso - Gloria Fuertes</h1>
+    </header>
+    <main>
         <h3> ¿Quién fue Gloria Fuertes? </h3>
         <p> Gloria Fuertes Diaz (Madrid, 28 de julio de 1917-Madrid, 27 de noviembre de 1998) fue una poetisa española incluida en la generación del 50, posterior al movimiento literario de la primera generación de posguerra. Su labor poética se vio reforzada en España a partir de los años 1970 por sus colaboraciones en programas juveniles y juveniles de Televisión Española como Un globo, dos globos, tres globos o La cometa blanca. En su poesía defendió a las mujeres, el pacifismo y el medio ambiente. En 2017, con motivo de la celebración del centenario de su nacimiento se reivindicó su papel en la poesía española del siglo.</p>
         <h3> ¿Cómo era su estilo? </h3>
@@ -112,8 +112,8 @@
         se casaron<br>
         y en vez de tener perdices<br>
         tuvieron tres renacuajos.</p>
-
-        <footer> 
+    </main>
+    <footer> 
         <p> ♡ Me encanta Gloria Fuertes por su estilo y los temas que trata. En definitiva puedo confirmar que es mi poeta favorita ♡ </p> 
         <p> ♡ Espero poder conocerla en el más allá y decirle lo mucho que me inspiró en vida ♡  </p>
         </footer>
